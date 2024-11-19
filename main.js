@@ -1,4 +1,4 @@
-// Array - მასივი
+// 1) Array - მასივი
 
 const myElements = [10, 15, 20, 25, 30];
 const firstElement = 10;
@@ -24,7 +24,7 @@ console.log("mean" + "=" + mean);
 // const removedElement = myElements.pop();
 // console.log(removedElement);
 
-// object- ობიექტები
+// 2) object- ობიექტები
 
 const myBookInfo = {
   title: "The Eighth Life",
@@ -38,9 +38,23 @@ console.table(myBookInfo);
 
 // console.log(fullSentence);
 
-// edited yearPublished
+// 3) edited yearPublished
 
 myBookInfo.yearPublished = 2018;
 console.table(myBookInfo);
 
-// properties
+// 4) properties
+
+const people = [
+  { name: "", age: 25, score: 80 },
+  {
+    name: "",
+    age: 25,
+    score: 80,
+  },
+  {
+    name: "",
+    age: 25,
+    score: 80,
+  },
+];
